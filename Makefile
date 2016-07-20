@@ -7,6 +7,6 @@ kill:
 rm: kill
 	@docker-compose -f docker/compose/docker-compose.yml rm -f -a
 
-restart: rm up
+restart: rm run
 	
 
