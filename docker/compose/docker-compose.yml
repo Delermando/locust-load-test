@@ -1,5 +1,5 @@
 locust:
-  image: locust-load-test:1.0
+  image: delermando/locust-load-test:1.0
   ports:
   - 8089:8089
   container_name: locust
