@@ -6,7 +6,7 @@ class Tasks(TaskSet):
         self.client.get('/')
 
 class MyHostLoadTest(HttpLocust):
-    host = "http://iamyourcoder.com"
+    host = "http://seudominio.com"
     task_set = Tasks
     min_wait = 2000
     max_wait = 5000
