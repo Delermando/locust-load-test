@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/personare/php.svg)](https://microbadger.com/images/personare/php "Get your own image badge on microbadger.com")
+
 # Locust Load Test  
 
 ## Introdução  
