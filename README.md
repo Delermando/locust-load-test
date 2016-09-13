@@ -1,4 +1,4 @@
-[![](https://images.microbadger.com/badges/image/personare/php.svg)](https://microbadger.com/images/personare/php "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/delermando/locust-load-test:1.0.svg)](http://microbadger.com/images/delermando/locust-load-test:1.0 "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/delermando/locust-load-test:1.0.svg)](http://microbadger.com/images/delermando/locust-load-test:1.0 "Get your own version badge on microbadger.com")
 
 # Locust Load Test  
 
