@@ -2,42 +2,42 @@
 
 # Locust Load Test  
 
-## Introdução  
-Este é um projeto que disponibiliza a ferramenta **Locust** para teste de carga de forma simples e rápida usando o Docker.
+## Introduction  
+This is simple project that Dockerize **Locust** tool, allowing you to simply and quickly test.
 
-## Pré-requisitos:  
+## Requirements:  
 1. git
 2. docker
 3. docker-compose
 
-## Como usar:  
-1. Clone este projeto  
+## How to use:  
+**1ª Step:** Clone this project  
 `git clone git@github.com:Delermando/locust-load-test.git`  
 
-2. Entre na pasta do projeto  
+**2ª Step:** Accesse the project folder  
     `cd locust-load-test`  
 
-3. Defina o comportamento do testw, editando o arquivo **src/load_test_definition.py** nele você irá especificar o host para o teste, mudando o valor da propriedade **host**. Caso queira definir outras configurações acesse [locust.io](http://docs.locust.io/en/latest/).  
-![arquivo de defição do teste]
+**3ª Step:** Define test settings, editing the configuration file **src/load_test_definition.py**, on that you'll the property **host**. If you want define definir other configurations access [locust.io](http://docs.locust.io/en/latest/).  
+![Definition test file]
 (https://s32.postimg.org/fww94rmat/image.png)
 
-4. Inicie o container  
+**4ª Step:** Start container  
     `make run`  
 
-5. Acesse a interface para iniciar o teste de carga `localhost:8089`  
-![Interface Web Locust]
+**5ª Step:** Access the locust interface on browser on the following address `localhost:8089`  
+![Locust Web Interface]
 (https://s32.postimg.org/uu4q5rzj9/image.png)
 
-6. Defina a quantidade de requisições, numero usuarios simultâneos e clique em **start swarming**  
-![Definição de requestes]
+**6ª Step:** First define the number of requests, concurrent users and so click on **start swarming** button  
+![Requestes definition]
 (https://s32.postimg.org/morq4qhlx/image.png)
 
-7. Agora acompanhe os resultados do teste  
+**7ª Step:** Now enjoy  
 ![Tela final]
 (https://s32.postimg.org/4zzzd45ut/image.png)
 
-## Comandos
-- make run  
-- make kill  
-- make rm  
-- make restart  
+## Commands Refence
+- **make run** (Start the project containers)
+- **make kill**  (Kill all containers)
+- **make rm**  (Remove all containers)
+- **make restart** (Restart it's a combination of the **kill**, **rm** and **run** commands) 
