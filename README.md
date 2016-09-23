@@ -14,26 +14,27 @@ This is simple project that Dockerize **Locust** tool, allowing you to simply an
 **1ª Step:** Clone this project  
 `git clone git@github.com:Delermando/locust-load-test.git`  
 
-**2ª Step:** Accesse the project folder  
+**2ª Step:** Access the project folder  
     `cd locust-load-test`  
 
-**3ª Step:** Define test settings, editing the configuration file **src/load_test_definition.py**, on that you'll the property **host**. If you want define definir other configurations access [locust.io](http://docs.locust.io/en/latest/).  
+**3ª Step:** Define test settings, editing the configuration file **src/load_test_definition.py**, on that you'll change the property **host**. 
+If you want to define other configurations access [locust.io](http://docs.locust.io/en/latest/).  
 ![Definition test file]
 (https://s32.postimg.org/fww94rmat/image.png)
 
-**4ª Step:** Start container  
+**4ª Step:** Start containers   
     `make run`  
 
 **5ª Step:** Access the locust interface on browser on the following address `localhost:8089`  
 ![Locust Web Interface]
 (https://s32.postimg.org/uu4q5rzj9/image.png)
 
-**6ª Step:** First define the number of requests, concurrent users and so click on **start swarming** button  
+**6ª Step:** First define the number of requests, concurrent users and so click on **Start Swarming** button.  
 ![Requestes definition]
 (https://s32.postimg.org/morq4qhlx/image.png)
 
 **7ª Step:** Now enjoy  
-![Tela final]
+![End screenl]
 (https://s32.postimg.org/4zzzd45ut/image.png)
 
 ## Commands Refence
